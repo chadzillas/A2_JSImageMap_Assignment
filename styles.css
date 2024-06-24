@@ -1,0 +1,105 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background.jpg");
+    background-size: cover; /* Ensure the background image covers the entire body */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Ensure the background image remains fixed while scrolling */
+    font-family: Arial, sans-serif; /* Example font-family */
+    color: #333; /* Example text color */
+    
+}
+
+/* Style for the button */
+.styled-button {
+    background-color: #00acce; /* Green background */
+    color: rgb(8, 8, 8); /* White text */
+    padding: 10px 30px; /* Padding inside the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background color and transform */
+}
+
+.styled-button:hover {
+    background-color: #0073ee; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.styled-button:active {
+    background-color: #00c4fa; /* Even darker green when active */
+    box-shadow: 0 5px #666; /* Adjust shadow */
+    transform: translateY(4px); /* Move down slightly when active */
+}
+
+
+/* Style for main content wrapper */
+.main-content {
+    max-width: 1200px; /* Limit the width of the main content */
+    margin: 20px auto; /* Center the main content horizontally */
+    padding: 20px; /* Add padding around the main content */
+}
+
+/* Container for grouped sections */
+.grouped-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: top;
+    align-items: center; /* Center items vertically */
+    gap: 50px; /* Space between the containers */
+}
+
+/* Individual sections within grouped-container */
+
+.content-section {
+    flex: 1; /* Each section takes up equal space */
+    padding: 30px; /* Add padding inside each section */
+    background-color: #b34bcbe2; /* background color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+
+   
+}
+
+.content-section h1,
+.content-section h2 {
+    color: #000000; 
+    font-size: 24px; 
+}
+
+.content-section p {
+    line-height: 1.6; /* Line height for paragraphs */
+    color: black;
+    font-size: 16px;
+}
+
+.image-section {
+    flex: 0; /* Each section takes up equal space */
+    padding-top: 0px; /* Top padding */
+    padding-bottom: 0px; /* Bottom padding */
+    padding-left: 0; /* No left padding */
+    padding-right: 0; /* No right padding */
+    background-color: #161f65; /* White background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 40px rgb(70, 3, 255); /* Shadow effect */
+    text-align: center; /* Center align content */
+}
+
+.image-section img {
+    max-width: 600px; /* Ensure image is responsive */
+    height: 600px; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for image */
+}
+
+
+
+
+
