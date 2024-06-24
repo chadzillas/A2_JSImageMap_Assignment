@@ -7,15 +7,15 @@ body {
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     background-position: center center; /* Center the background image */
     background-attachment: fixed; /* Ensure the background image remains fixed while scrolling */
-    font-family: Arial, sans-serif; /* Example font-family */
-    color: #333; /* Example text color */
+    font-family: Arial, sans-serif; 
+    color: #333; 
     
 }
 
 /* Style for the button */
 .styled-button {
-    background-color: #00acce; /* Green background */
-    color: rgb(8, 8, 8); /* White text */
+    background-color: #00acce; 
+    color: rgb(8, 8, 8); 
     padding: 10px 30px; /* Padding inside the button */
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove underline */
@@ -30,12 +30,12 @@ body {
 }
 
 .styled-button:hover {
-    background-color: #0073ee; /* Darker green on hover */
+    background-color: #0073ee; 
     transform: scale(1.05); /* Slightly larger on hover */
 }
 
 .styled-button:active {
-    background-color: #00c4fa; /* Even darker green when active */
+    background-color: #00c4fa; 
     box-shadow: 0 5px #666; /* Adjust shadow */
     transform: translateY(4px); /* Move down slightly when active */
 }
@@ -87,7 +87,7 @@ body {
     padding-bottom: 0px; /* Bottom padding */
     padding-left: 0; /* No left padding */
     padding-right: 0; /* No right padding */
-    background-color: #161f65; /* White background color */
+    background-color: #161f65; 
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 0 40px rgb(70, 3, 255); /* Shadow effect */
     text-align: center; /* Center align content */
