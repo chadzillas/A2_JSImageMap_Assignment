@@ -1,31 +1,36 @@
-How to be a Friend to Someone with Autism
-This website is dedicated to promoting inclusion and understanding for school-aged children with autism. It provides valuable insights and practical tips 
-for parents, adults, and anyone interested in learning how to interact compassionately with children on the autism spectrum.
+# How to Be a Friend to Someone with Autism
 
-By spreading this knowledge to parents, teachers, or anyone interested, in hopes that eventually it will be taught to school-aged children, we can foster a more tolerant and caring environment. 
-Understanding and acceptance can significantly enhance the quality of life for kids with autism and their families, leading to stronger friendships, improved social skills, and a more inclusive community. 
-The benefits extend beyond the individuals with autism, enriching the lives of all students by teaching empathy and diversity.
+A simple educational website promoting inclusion and understanding for school-aged children on the autism spectrum. It provides practical tips for parents, educators, and students on how to build supportive friendships.
 
-Project Structure
-The project is organized as follows:
+## Live Demo
+https://chadzillas.github.io/A2_JSImageMap_Assignment/
 
-index.html: The main page that introduces the topic and provides an interactive image with links to more detailed pages.
-way1.html to way8.html: Detailed pages for each of the 8 ways to be a friend to someone with autism.
-styles.css: The stylesheet used for styling the website.
+## Overview
+This project uses an interactive image on the main page to navigate to eight short pages, each covering one way to be a friend to someone with autism. The goal is to encourage empathy, patience, and respectful communication in school settings.
 
-Pages
-index.html: Provides an overview of the project and an interactive image linking to the detailed pages.
-way1.html: Take the Initiative to Include Him or Her
-way2.html: Find Common Interests
-way3.html: Be Persistent and Patient
-way4.html: Communicate Clearly
-way5.html: Stand Up for Him or Her
-way6.html: Give Feedback
-way7.html: Remember Sensory Sensitivity
-way8.html: Don't Be Afraid
+## Features
+- Interactive image navigation (clickable sections)
+- Eight focused pages (Way 1–Way 8)
+- Simple, readable layout and styling
 
+## Project Structure
+- `index.html` — Main page with overview and interactive image links
+- `way1.html` to `way8.html` — Detail pages for each tip
+- `styles.css` — Site styling
 
+## Pages
+1. `way1.html` — Take the Initiative to Include Them  
+2. `way2.html` — Find Common Interests  
+3. `way3.html` — Be Persistent and Patient  
+4. `way4.html` — Communicate Clearly  
+5. `way5.html` — Stand Up for Them  
+6. `way6.html` — Give Feedback  
+7. `way7.html` — Remember Sensory Sensitivity  
+8. `way8.html` — Don’t Be Afraid  
 
-Acknowledgements
-Thank you for your interest and visiting the page. I hope it helps you understand kids with Autism better and encourages you to foster a more inclusive and compassionate environment. 
+## How to Run Locally
+1. Download or clone this repo.
+2. Open `index.html` in a web browser.
 
+## Acknowledgements
+Thanks for visiting. I hope this project helps increase understanding and encourages a more inclusive and compassionate environment for all students.
